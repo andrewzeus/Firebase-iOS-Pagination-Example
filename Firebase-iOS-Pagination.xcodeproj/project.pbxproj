@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		684DE64D0898DE69EF96EA4A /* Pods_Firebase_iOS_Pagination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AD32F52980477ABCA1EE76 /* Pods_Firebase_iOS_Pagination.framework */; };
 		E3C92DB51E4C7BE1005C6D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C92DB41E4C7BE1005C6D22 /* AppDelegate.swift */; };
-		E3C92DB71E4C7BE1005C6D22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C92DB61E4C7BE1005C6D22 /* ViewController.swift */; };
 		E3C92DBA1E4C7BE1005C6D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C92DB81E4C7BE1005C6D22 /* Main.storyboard */; };
 		E3C92DBC1E4C7BE1005C6D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C92DBB1E4C7BE1005C6D22 /* Assets.xcassets */; };
 		E3C92DBF1E4C7BE1005C6D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C92DBD1E4C7BE1005C6D22 /* LaunchScreen.storyboard */; };
+		E3C92DC91E4C7C72005C6D22 /* PaginationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C92DC81E4C7C72005C6D22 /* PaginationVC.swift */; };
+		E3C92DCB1E4C7C87005C6D22 /* PaginationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C92DCA1E4C7C87005C6D22 /* PaginationCell.swift */; };
+		E3C92DCE1E4C7CD8005C6D22 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C92DCD1E4C7CD8005C6D22 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77AD32F52980477ABCA1EE76 /* Pods_Firebase_iOS_Pagination.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_iOS_Pagination.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8276286D30895FE138BE120A /* Pods-Firebase-iOS-Pagination.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase-iOS-Pagination.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase-iOS-Pagination/Pods-Firebase-iOS-Pagination.debug.xcconfig"; sourceTree = "<group>"; };
+		8E94021B0120004DEACBCA6B /* Pods-Firebase-iOS-Pagination.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase-iOS-Pagination.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase-iOS-Pagination/Pods-Firebase-iOS-Pagination.release.xcconfig"; sourceTree = "<group>"; };
 		E3C92DB11E4C7BE1005C6D22 /* Firebase-iOS-Pagination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase-iOS-Pagination.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C92DB41E4C7BE1005C6D22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3C92DB61E4C7BE1005C6D22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3C92DB91E4C7BE1005C6D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3C92DBB1E4C7BE1005C6D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3C92DBE1E4C7BE1005C6D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3C92DC01E4C7BE1005C6D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C92DC81E4C7C72005C6D22 /* PaginationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationVC.swift; sourceTree = "<group>"; };
+		E3C92DCA1E4C7C87005C6D22 /* PaginationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationCell.swift; sourceTree = "<group>"; };
+		E3C92DCD1E4C7CD8005C6D22 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				684DE64D0898DE69EF96EA4A /* Pods_Firebase_iOS_Pagination.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E66E5DFE0F7DB2D4BF33B59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8276286D30895FE138BE120A /* Pods-Firebase-iOS-Pagination.debug.xcconfig */,
+				8E94021B0120004DEACBCA6B /* Pods-Firebase-iOS-Pagination.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93EFF5651F8BB1E62105CEF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77AD32F52980477ABCA1EE76 /* Pods_Firebase_iOS_Pagination.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E3C92DA81E4C7BE1005C6D22 = {
 			isa = PBXGroup;
 			children = (
 				E3C92DB31E4C7BE1005C6D22 /* Firebase-iOS-Pagination */,
 				E3C92DB21E4C7BE1005C6D22 /* Products */,
+				6E66E5DFE0F7DB2D4BF33B59 /* Pods */,
+				93EFF5651F8BB1E62105CEF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,40 @@
 		E3C92DB31E4C7BE1005C6D22 /* Firebase-iOS-Pagination */ = {
 			isa = PBXGroup;
 			children = (
+				E3C92DCC1E4C7CCC005C6D22 /* Model */,
+				E3C92DC61E4C7C3B005C6D22 /* Controllers */,
+				E3C92DC71E4C7C40005C6D22 /* Cells */,
 				E3C92DB41E4C7BE1005C6D22 /* AppDelegate.swift */,
-				E3C92DB61E4C7BE1005C6D22 /* ViewController.swift */,
 				E3C92DB81E4C7BE1005C6D22 /* Main.storyboard */,
 				E3C92DBB1E4C7BE1005C6D22 /* Assets.xcassets */,
 				E3C92DBD1E4C7BE1005C6D22 /* LaunchScreen.storyboard */,
 				E3C92DC01E4C7BE1005C6D22 /* Info.plist */,
 			);
 			path = "Firebase-iOS-Pagination";
+			sourceTree = "<group>";
+		};
+		E3C92DC61E4C7C3B005C6D22 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3C92DC81E4C7C72005C6D22 /* PaginationVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E3C92DC71E4C7C40005C6D22 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E3C92DCA1E4C7C87005C6D22 /* PaginationCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		E3C92DCC1E4C7CCC005C6D22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3C92DCD1E4C7CD8005C6D22 /* Post.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3C92DC31E4C7BE1005C6D22 /* Build configuration list for PBXNativeTarget "Firebase-iOS-Pagination" */;
 			buildPhases = (
+				BF564727234655F0317911CD /* [CP] Check Pods Manifest.lock */,
 				E3C92DAD1E4C7BE1005C6D22 /* Sources */,
 				E3C92DAE1E4C7BE1005C6D22 /* Frameworks */,
 				E3C92DAF1E4C7BE1005C6D22 /* Resources */,
+				654832CEB56DC59FCE59D6FA /* [CP] Embed Pods Frameworks */,
+				DCC188BA0CE8422365E10B5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +153,6 @@
 				TargetAttributes = {
 					E3C92DB01E4C7BE1005C6D22 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 6CWR97EZ4E;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,13 +188,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		654832CEB56DC59FCE59D6FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase-iOS-Pagination/Pods-Firebase-iOS-Pagination-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF564727234655F0317911CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC188BA0CE8422365E10B5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase-iOS-Pagination/Pods-Firebase-iOS-Pagination-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3C92DAD1E4C7BE1005C6D22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3C92DB71E4C7BE1005C6D22 /* ViewController.swift in Sources */,
+				E3C92DC91E4C7C72005C6D22 /* PaginationVC.swift in Sources */,
+				E3C92DCB1E4C7C87005C6D22 /* PaginationCell.swift in Sources */,
 				E3C92DB51E4C7BE1005C6D22 /* AppDelegate.swift in Sources */,
+				E3C92DCE1E4C7CD8005C6D22 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +365,10 @@
 		};
 		E3C92DC41E4C7BE1005C6D22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8276286D30895FE138BE120A /* Pods-Firebase-iOS-Pagination.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6CWR97EZ4E;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Firebase-iOS-Pagination/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.firebasepagination.ios.Firebase-iOS-Pagination";
@@ -272,9 +379,10 @@
 		};
 		E3C92DC51E4C7BE1005C6D22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E94021B0120004DEACBCA6B /* Pods-Firebase-iOS-Pagination.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6CWR97EZ4E;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Firebase-iOS-Pagination/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.firebasepagination.ios.Firebase-iOS-Pagination";
@@ -302,6 +410,7 @@
 				E3C92DC51E4C7BE1005C6D22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
