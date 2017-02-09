@@ -22,8 +22,6 @@ class PaginationVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        NotificationCenter.default.addObserver(self, selector: #selector(FeedVC.reloadFeed), name: NSNotification.Name(rawValue: "reloadFeed"), object: nil)
-        
         self.tableView.delegate = self
         self.tableView.dataSource = self
         
@@ -52,7 +50,9 @@ class PaginationVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "feedCell") as! FeedCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "sampleCell") as! PaginationVC
+        
+        // You can configure on your own cell class.
         cell.configure(postIn: self.posts[indexPath.row])
         
         return cell
